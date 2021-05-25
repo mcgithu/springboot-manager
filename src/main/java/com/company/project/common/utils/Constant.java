@@ -44,4 +44,16 @@ public class Constant {
     public static final Integer DATA_SCOPE_DEPT_AND_CHILD = 3;
     public static final Integer DATA_SCOPE_DEPT = 4;
     public static final Integer DATA_SCOPE_DEPT_SELF = 5;
+
+    /**
+     * 商标类别redis 主key
+     */
+    public static final String XBCLASS_MAIN_KEY = "xbclass_main_key";
+
+
+    public static class ApplyMarkInfoStatus{
+        public static final Integer INIT = 10;
+        public static final Integer PAYMENT = 20;
+        public static final Integer CANCEL = 200;
+    }
 }

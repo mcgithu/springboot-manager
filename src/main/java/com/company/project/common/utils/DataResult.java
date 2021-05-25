@@ -80,6 +80,10 @@ public class DataResult {
         return new DataResult();
     }
 
+    public static DataResult success(String msg) {
+        return new DataResult(BaseResponseCode.SUCCESS.getCode(), msg);
+    }
+
     /**
      * 操作成功 data 不为null
      */

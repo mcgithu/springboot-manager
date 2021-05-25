@@ -130,4 +130,15 @@ public class IndexController {
     public String sysFiles() {
         return "sysfiles/list";
     }
+
+    @GetMapping("/searchLog")
+    public String searchLog() {
+        return "searchlog/searchLog_list";
+    }
+
+    @GetMapping("/applyMarkInfo")
+    public String applyMarkInfo() {
+        return "applyMarkInfo/applyMarkInfo_list";
+    }
+
 }
